@@ -1,0 +1,112 @@
+<html>
+<head>
+	<title>Our Freedom Struggle</title>
+	<style>
+			p{
+			border-style:solid;
+			border-width:thick;
+			border-color:brown;
+			color:brown;
+			font-size:20px;
+			background-color:peachpuff;
+		}
+		h1#heading{
+			color:brown;
+			font-family:Serif Times New Roman;
+		}
+		header{
+			background-color:brown;
+			color:white;
+		}
+		ul{
+			list-style-type:none;
+			margin:0;
+			padding:0;
+			overflow:hidden;
+		}
+		
+		nav ul li{
+			dispaly: inline-block;
+			line-height: 80px;
+			margin: 0 5px;
+		}
+		li{
+			float:left;}
+		a#k:link, a#k:visited{
+			display:block;
+			font-weight:bold;
+			color:#ffffff;
+			background-color:brown;
+			width:150px;text-align:center;padding:4px;text-transform:uppercase;text-decoration:none;}
+		a#k:hover,a#k:active{
+			background-color:#7a991a;}
+			h1{
+				color:brown;
+			}
+			</style>
+	</head>
+	<script language="javascript">
+var s=0
+function show(){
+s++;
+}
+function display()
+{
+	document.getElementById("here").innerHTML="Your score is "+s
+}
+function dothis()
+{
+	were.style.background="green";
+}
+function dothati()
+{
+	were.style.background="#cc9966";
+}
+	</script>
+<body bgcolor="#c9966" id="were">
+	
+	<header>
+	<nav>
+		<ul>
+		<li><a style="width:100px;"class="font-effect-shadow" id="k" href="project.html">HOME</a></li>
+		<li><a class="font-effect-shadow" style="width:100px;" id="k" href="timeline.html">TIMELINE</a></li>
+		<li><a class="font-effect-shadow" style="width:110px;" id="k" href="revolt.html">THE REVOLT</a></li>
+		<li><a class="font-effect-shadow" style="width:120px;" id="k" href="rowlatt.html">ROWLATT ACT</a></li>
+		<li><a class="font-effect-shadow" style="width:180px;" id="k" href="noncooperation.html">NON COOPERATION</a></li>
+		<li><a class="font-effect-shadow" id="k" style="width:180px;" href="civildisobedience.html">civil disobedience</a></li>
+		<li><a class="font-effect-shadow" id="k" style="width:110px;" href="quitindia.html">QUIT INDIA</a></li>
+		<li><a class="font-effect-shadow" id="k" style="width:100px;" href="map.html">MAP</a></li>
+		</ul></nav>
+	</header>
+	<h1 align="center">Map Exercise</h1>
+	<p>Find Your Locations in the Map and click at that location once to increase your score When a location is reached background colour will become green :</p>
+	<center><img border="3" style="border-color:brown" src="https://th.bing.com/th/id/OIP.vS7y53McvklUgSVMsXeSYgHaJl?pid=ImgDet&rs=1" usemap="#image-map">
+ 
+     <map name="image-map">
+    <area id="a1" target="" alt="" title="1.Lucknow" coords="215,241,12" shape="circle" onClick="show()" onMouseEnter="dothis()" onMouseLeave="dothati()">
+    <area id="a2" target="" alt="" title="2.Champaran"  coords="272,246,8" shape="circle" onClick="show()"onMouseEnter="dothis()" onMouseLeave="dothati()">
+    <area id="a3" target="" alt="" title="3.Dandi"  coords="94,310,7" shape="circle" onClick="show()"onMouseEnter="dothis()" onMouseLeave="dothati()">
+    <area id="a4" target="" alt="" title="4.Amritsar"  coords="135,159,10" shape="circle" onClick="show()"onMouseEnter="dothis()" onMouseLeave="dothati()">
+    <area id="a5" target="" alt="" title="5.Madras"  coords="196,454,13" shape="circle" onClick="show()"onMouseEnter="dothis()" onMouseLeave="dothati()">
+    <area id="a6" target="" alt="" title="6.Calcutta"  coords="318,302,9" shape="circle" onClick="show()"onMouseEnter="dothis()" onMouseLeave="dothati()">
+    <area id="a7" target="" alt="" title="7.Bombay" coords="89,370,9" shape="circle" onClick="show()" onMouseEnter="dothis()" onMouseLeave="dothati()">
+    <area id="a8" target="" alt="" title="8.Chauri Chaura"  coords="242,248,8" shape="circle" onClick="show()"onMouseEnter="dothis()" onMouseLeave="dothati()">
+    <area id="a9" target="" alt="" title="9.Allahabad" coords="218,275,9" shape="circle" onClick="show()"onMouseEnter="dothis()" onMouseLeave="dothati()">
+    <area id="a10" target="" alt="" title="10.Delhi" coords="161,205,10" shape="circle" onClick="show()"onMouseEnter="dothis()" onMouseLeave="dothati()">
+</map>  
+</map></center>
+<p>
+	1.In this place a pact was signed in 1916 .<br>
+	2.Non cooperation movement started at this place .<br>
+	3.Gandhiji's Salt March started at this place <br>
+	4.The infamous Jalianwhala Bagh Massacre took place at this place.<br>
+	5.Simon Commission movement started here at 1927.<br>
+	6.Home Rule movement started here at 1915.<br>
+	7.Quit India Movement started here at 1942 .<br>
+	8.22 Policemen were killed here in 1922 <br>
+	9.Swaraj party was formed here in 1922 <br>
+	10.The Constituent Assembly formed here in 1946<br>
+	<input type="button" value="Know your score" onClick="display()">
+	<br><p id="here">Your Score is</p>
+</p>
+</body>
